@@ -6,8 +6,8 @@
 	"elements": [
 		{
 			"name": "WallN",
-			"from": [4, 0, 2],
-			"to": [14, 3, 4],
+			"from": [3, 0, 2],
+			"to": [13, 3, 4],
 			"faces": {
 				"north": {"uv": [6, 13, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 13, 2, 16], "texture": "#0"},
@@ -19,8 +19,8 @@
 		},
 		{
 			"name": "WallW",
-			"from": [2, 0, 2],
-			"to": [4, 3, 12],
+			"from": [2, 0, 3],
+			"to": [4, 3, 13],
 			"faces": {
 				"north": {"uv": [0, 13, 2, 16], "texture": "#0"},
 				"east": {"uv": [6, 13, 16, 16], "texture": "#0"},
@@ -32,8 +32,8 @@
 		},
 		{
 			"name": "WallS",
-			"from": [2, 0, 12],
-			"to": [12, 3, 14],
+			"from": [3, 0, 12],
+			"to": [13, 3, 14],
 			"faces": {
 				"north": {"uv": [6, 13, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 13, 2, 16], "texture": "#0"},
@@ -45,8 +45,8 @@
 		},
 		{
 			"name": "WallE",
-			"from": [12, 0, 4],
-			"to": [14, 3, 14],
+			"from": [12, 0, 3],
+			"to": [14, 3, 13],
 			"faces": {
 				"north": {"uv": [0, 13, 2, 16], "texture": "#0"},
 				"east": {"uv": [6, 13, 16, 16], "texture": "#0"},
@@ -69,5 +69,33 @@
 				"down": {"uv": [8, 0, 16, 8], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [3, 0, 0],
+			"translation": [0, 6, 0],
+			"scale": [0.73, 0.75172, 0.73]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [3, 0, 0],
+			"translation": [0, 7.75, 0],
+			"scale": [0.73, 0.73, 0.73]
+		},
+		"firstperson_righthand": {
+			"translation": [6, 4.5, 0],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"firstperson_lefthand": {
+			"translation": [6, 4.5, 0],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"gui": {
+			"rotation": [40, 0, 0],
+			"translation": [0, 3.75, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 1, -7.5]
+		}
+	}
 }
